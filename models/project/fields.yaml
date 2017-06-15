@@ -1,0 +1,17 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    title:
+        label: Title
+        type: text
+        required: true
+    image:
+        label: Image
+        type: fileupload
+        mode: image
+

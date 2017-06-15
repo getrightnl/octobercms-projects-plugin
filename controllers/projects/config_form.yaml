@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Project
+
+# Model Form Field configuration
+form: $/getright/projects/models/project/fields.yaml
+
+# Model Class name
+modelClass: GetRight\Projects\Models\Project
+
+# Default redirect location
+defaultRedirect: getright/projects/projects
+
+# Create page
+create:
+    title: Create Project
+    redirect: getright/projects/projects/update/:id
+    redirectClose: getright/projects/projects
+
+# Update page
+update:
+    title: Edit Project
+    redirect: getright/projects/projects
+    redirectClose: getright/projects/projects
+
+# Preview page
+preview:
+    title: Preview Project
